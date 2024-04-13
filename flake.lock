@@ -18367,14 +18367,15 @@
       "locked": {
         "lastModified": 1708512517,
         "narHash": "sha256-3bK8kwIIVzNe76HjZ+Q2CQAws+HSEUPgFPv+jh4TfzI=",
-        "owner": "CardanoSolutions",
+        "owner": "Renegatto",
         "repo": "ogmios",
         "rev": "dabab146d12162f7efb09da761b8f9dc9dcc4c67",
         "type": "github"
       },
       "original": {
-        "owner": "CardanoSolutions",
+        "owner": "Renegatto",
         "repo": "ogmios",
+        "rev": "dabab146d12162f7efb09da761b8f9dc9dcc4c67",
         "type": "github"
       }
     },

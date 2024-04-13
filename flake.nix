@@ -22,7 +22,7 @@
     cardano-world.url = "github:IntersectMBO/cardano-world";
     cardano-node.follows = "cardano-world/cardano-node";
     ogmios = {
-      url = "github:CardanoSolutions/ogmios";
+      url = "github:Renegatto/ogmios/dabab146d12162f7efb09da761b8f9dc9dcc4c67";
       flake = false;
     };
   };
