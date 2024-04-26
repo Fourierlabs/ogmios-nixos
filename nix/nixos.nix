@@ -1,4 +1,4 @@
-inputs: outputs:
+outputs: { repoRoot, inputs }:
 let
   system = "x86_64-linux";
   # NixOS module for configuring Ogmios service.

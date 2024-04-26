@@ -30,15 +30,12 @@
     let
       # TODO enable ogmios supported OS's
       systems = [ "x86_64-linux" ];
-      nixos = import ./nixos.nix inputs self;
     in
     inputs.iogx.lib.mkFlake {
       inherit inputs systems;
       repoRoot = ./.;
       outputs = import ./nix/outputs.nix;
-      flake = {
-        inherit (nixos) nixosConfigurations nixosModules;
-      };
+      flake = import ./nix/nixos.nix self;
     };
   nixConfig = {
     extra-substituters = [
