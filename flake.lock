@@ -3,11 +3,11 @@
     "CHaP": {
       "flake": false,
       "locked": {
-        "lastModified": 1714001377,
-        "narHash": "sha256-FElLa99dH+HzG3tUkotgJhEB2T/ooyaIb5qwum/x8UE=",
+        "lastModified": 1717598044,
+        "narHash": "sha256-V7JXGPxd6gwB7YVeZGtikI+Xjfowi8tZRQPcLQFPRJM=",
         "owner": "IntersectMBO",
         "repo": "cardano-haskell-packages",
-        "rev": "a2e6e0cf123e35bc643ab2f33fcb5c4df5a8abe7",
+        "rev": "3e53f1c487d7ba6a7790c0ce2aba28fd6e003573",
         "type": "github"
       },
       "original": {
@@ -8321,11 +8321,11 @@
     "hackage_16": {
       "flake": false,
       "locked": {
-        "lastModified": 1714091126,
-        "narHash": "sha256-4k6wY0edsdn0g0TgPg5yWac8q5IQ5b37zmSOMWotpXg=",
+        "lastModified": 1717547832,
+        "narHash": "sha256-Yejc5U+qibckUunbJEC2p4p02V6ZTDdlHnf3zQfzjqk=",
         "owner": "input-output-hk",
         "repo": "hackage.nix",
-        "rev": "2520735edd359282dae0d4d76dd0339fe734d59e",
+        "rev": "191b232330fe713001e7ebb77f5c0b53941174a6",
         "type": "github"
       },
       "original": {
@@ -18429,11 +18429,11 @@
     "ogmios_3": {
       "flake": false,
       "locked": {
-        "lastModified": 1714292716,
-        "narHash": "sha256-ozpn+2daZLIK5uVZIXrZ5lv+sVtRHZoBoJMUK4RFz6g=",
+        "lastModified": 1717589216,
+        "narHash": "sha256-/w2bKCE8WPNfhDSzlz0jwAPuStS36Gp4KlquoGIGIvg=",
         "owner": "CardanoSolutions",
         "repo": "ogmios",
-        "rev": "83065af5d370389c09e901c64628781ac0898a03",
+        "rev": "395776e7f6cfdbef756aa7abe8030b9cc2e0ba8d",
         "type": "github"
       },
       "original": {
