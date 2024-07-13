@@ -1,12 +1,10 @@
 {
   description = "Nix flake for ogmios";
   inputs = {
-    # TODO remove hackage input as soon iogx catches up
     hackage = {
       url = "github:input-output-hk/hackage.nix";
       flake = false;
     };
-    # TODO remove CHaP as soon iogx catches up
     CHaP = {
       url = "github:IntersectMBO/cardano-haskell-packages?ref=repo";
       flake = false;

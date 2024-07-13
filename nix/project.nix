@@ -15,7 +15,7 @@
         "https://input-output-hk.github.io/cardano-haskell-packages" = inputs.iogx.inputs.CHaP;
       };
       sha256map = {
-        "https://github.com/CardanoSolutions/cardano-ledger"."f67155670677399e98205ed64dd202735b0c9be4" = "5ef837ZQED6nci0yxwBQtgI5BxoVaYfRoLZfvhL+Y/c=";
+        "https://github.com/CardanoSolutions/cardano-ledger"."9ab8b326981a94d4b57cb0427709845ab67ef975" = "sha256-Aed1QrKsdY/srz0CX1x3yQ7NF+1vIwv+c0bRRw+Oi9M=";
       };
       modules = [
         {
