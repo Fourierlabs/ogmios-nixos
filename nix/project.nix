@@ -15,12 +15,16 @@
         "https://input-output-hk.github.io/cardano-haskell-packages" = inputs.iogx.inputs.CHaP;
       };
       sha256map = {
-        "https://github.com/CardanoSolutions/cardano-ledger"."9ab8b326981a94d4b57cb0427709845ab67ef975" = "sha256-Aed1QrKsdY/srz0CX1x3yQ7NF+1vIwv+c0bRRw+Oi9M=";
+        "https://github.com/CardanoSolutions/cardano-ledger"."8112c9872f52e5147e28fbdd76a034cdb6eb7fea" = "sha256-qzey+5bwR1RpU1fx0jOMpaCAjyL4iFMwE7+PQ5kr/1M=";
       };
       modules = [
         {
           # FIXME ogmios unit tests are not passing
           packages.ogmios.components.tests.unit.doCheck = false;
+          # FIXME hjsonschema tests not building
+          packages.hjsonschema.components.tests.local.buildable = lib.mkForce false;
+          packages.hjsonschema.components.tests.spec.buildable = lib.mkForce false;
+          packages.hjsonschema.components.tests.remote.buildable = lib.mkForce false;
         }
       ];
     };

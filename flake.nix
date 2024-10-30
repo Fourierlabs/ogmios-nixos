@@ -20,7 +20,7 @@
     cardano-world.url = "github:IntersectMBO/cardano-world";
     cardano-node.follows = "cardano-world/cardano-node";
     ogmios = {
-      url = "github:CardanoSolutions/ogmios";
+      url = "git+https://github.com/CardanoSolutions/ogmios?tag=v6.8.0&submodules=1";
       flake = false;
     };
   };
